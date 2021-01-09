@@ -7,10 +7,10 @@ class Footer extends Component {
 
   render(): ReactNode {
     return (
-      <div className="bottom-0 h-10 flex items-center justify-center border-t border-gray-400">
-        <p className="text-gray-400">
+      <div className="bottom-0 flex items-center justify-center border-t border-gray-500 px-4 mt-3">
+        <p className="text-gray-500 my-2 text-center">
           Copyright © 2021 - {new Date().getFullYear()} Arthur Soares.
-          Todos os Direitos Reservados
+          Todos os Direitos Reservados.
         </p>
       </div>
     );

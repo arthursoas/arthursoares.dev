@@ -15,6 +15,7 @@ class Parent extends Component<ParentProps, any> {
 				<Head>
 					<title>{this.props.title || "Arthur Soares"}</title>
 					<meta name="yandex-verification" content="2df1c6057b357520" />
+          <link rel="icon" href="/favicon.ico" />
 				</Head>
         <Nav />
         <div className="h-auto flex-grow px-4">
