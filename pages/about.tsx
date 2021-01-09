@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import Link from 'next/link';
+import Parent from '../components/parent';
 
 class About extends React.Component {
   constructor(props: any) {
@@ -8,10 +8,9 @@ class About extends React.Component {
 
 	render(): ReactNode {
 		return (
-			<div>
-				<h1>Sobre</h1>
-				<Link href="/"><a>Voltar para Home</a></Link>
-			</div>
+			<Parent>
+				<h1>About</h1>
+			</Parent>
 		)
 	}
 }

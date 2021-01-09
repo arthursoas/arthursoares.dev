@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Nav from '../nav';
 import Footer from '../footer';
 import React, { Component, ReactNode } from 'react';
 import { ParentProps } from './parentProps';
@@ -15,7 +16,8 @@ class Parent extends Component<ParentProps, any> {
 					<title>{this.props.title || "Arthur Soares"}</title>
 					<meta name="yandex-verification" content="2df1c6057b357520" />
 				</Head>
-        <div className="h-auto flex-grow">
+        <Nav />
+        <div className="h-auto flex-grow px-4">
           {this.props.children}
         </div>
         <Footer />

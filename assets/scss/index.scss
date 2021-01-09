@@ -1,8 +1,8 @@
 @import './colors.scss';
 
 body {
-    background-color: $black;
-    color: $white;
+    background-color: $true-gray-900;
+    color: $true-gray-200;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
@@ -10,20 +10,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-    margin: 0;
-}
-
-#home {
-    &.total {
-        height: 100%;
-        background-color: red;
-    }
-
-    .centered {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+#nav {
+    color: $true-gray-900;
 }
