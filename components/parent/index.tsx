@@ -10,13 +10,15 @@ class Parent extends Component<ParentProps, any> {
 
   render(): ReactNode {
     return (
-      <div id="home" className="total">
+      <div id="home" className="min-h-screen flex flex-col">
 				<Head>
 					<title>{this.props.title || "Arthur Soares"}</title>
 					<meta name="yandex-verification" content="2df1c6057b357520" />
 				</Head>
-        {this.props.children}
-        <Footer/>
+        <div className="h-auto flex-grow">
+          {this.props.children}
+        </div>
+        <Footer />
       </div>
     );
   };

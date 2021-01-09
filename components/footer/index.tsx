@@ -7,9 +7,10 @@ class Footer extends Component {
 
   render(): ReactNode {
     return (
-      <div className="b--light-silver bt w-100 tc mt3">
-        <p className="mb2 mt2 silver f6">
-          Copyright © 2021 Arthur Soares. Todos os Direitos Reservados
+      <div className="bottom-0 h-10 flex items-center justify-center">
+        <p>
+          Copyright © 2021 - {new Date().getFullYear()} Arthur Soares.
+          Todos os Direitos Reservados
         </p>
       </div>
     );
