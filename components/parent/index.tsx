@@ -18,7 +18,7 @@ class Parent extends Component<ParentProps, any> {
           <link rel="icon" href="/favicon.ico" />
 				</Head>
         <Nav />
-        <div className="h-auto flex-grow px-4">
+        <div className={`h-auto flex-grow px-4 ${this.props.className}`}>
           {this.props.children}
         </div>
         <Footer />

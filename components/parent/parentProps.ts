@@ -1,3 +1,4 @@
 export type ParentProps = {
-  title?: string
+  title?: string,
+  className?: string
 }
