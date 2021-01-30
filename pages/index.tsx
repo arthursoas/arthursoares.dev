@@ -16,9 +16,9 @@ class Home extends Component {
 		return (
 			<Parent>
 				<div>
-					<div className="min-h-full mt-35v">
+					<div className="min-h-screen-except-nav flex flex-col justify-center items-center">
 						<p className="text-center">Made with ❤ by</p>
-						<h1 className="text-6xl font-extralight text-center">Arthur Soares</h1>
+						<h1 className="text-6xl font-thin text-center">Arthur Soares</h1>
 						<div className="flex justify-center">
 							<img src="/images/arrow-down.svg" className="animate-pulse h-16 mt-3 cursor-pointer"
 								onClick={() => {
@@ -27,11 +27,9 @@ class Home extends Component {
 									})
 								}}/>
 						</div>
-						<div className="mb-35v" />
 					</div>
-					<div id="endLanding" className="h-3"/>
-					<div className="min-h-screen">
-						<div className="flex">
+					<div id="endLanding" className="min-h-screen-except-nav">
+						<div className="pt-3 flex">
 							<h2 className="text-2xl font-extralight">"</h2>
 							<h2 className="text-2xl font-extralight">
 								Não há tal coisa como a perfeição. Este mundo não é perfeito e,

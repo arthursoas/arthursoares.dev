@@ -9,9 +9,6 @@ body {
     color: $true-gray-900;
 }
 
-.mt-35v {
-    margin-top: 35vh;
-}
-.mb-35v {
-    margin-bottom: 37vh;
+.min-h-screen-except-nav {
+    min-height: calc(100vh - 52px);
 }

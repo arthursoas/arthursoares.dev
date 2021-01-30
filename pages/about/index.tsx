@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import Parent from '../components/parent';
+import Parent from '../../components/parent';
 
 class About extends React.Component {
   constructor(props: any) {
