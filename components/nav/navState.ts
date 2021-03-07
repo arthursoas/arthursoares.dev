@@ -1,5 +1,6 @@
 export type NavState = {
   currentPath?: string,
   basePath: string,
-  aboutPath: string
+  aboutPath: string,
+  mePath: string
 }

@@ -9,7 +9,8 @@ class About extends React.Component {
 	render(): ReactNode {
 		return (
 			<Parent>
-				<h1>About</h1>
+				<h1 className="text-4xl font-thin">Sobre este site</h1>
+				<div className="mt-3 border-t border-gray-500"></div>
 			</Parent>
 		)
 	}

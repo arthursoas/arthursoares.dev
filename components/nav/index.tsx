@@ -3,16 +3,13 @@ import React, { Component, ReactNode } from 'react';
 import { NavState } from './navState';
 
 class Nav extends Component<any, NavState> {
-  currentPath: string;
-  basePath: string;
-  aboutPath: string;
-
   constructor(props: any) {
     super(props);
 
     this.state = {
       basePath: '/',
-      aboutPath: '/about'
+      aboutPath: '/about',
+      mePath: '/me'
     };
   }
 
@@ -29,6 +26,11 @@ class Nav extends Component<any, NavState> {
         <Link href={this.state.basePath}>
           <a className={`mr-4 ${this.state.basePath === this.state.currentPath ? "font-medium" : ""}`}>
             Home
+          </a>
+        </Link>
+        <Link href={this.state.mePath}>
+          <a className={`mr-4 ${this.state.mePath === this.state.currentPath ? "font-medium" : ""}`}>
+            Quem sou
           </a>
         </Link>
         <Link href={this.state.aboutPath}>
